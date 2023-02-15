@@ -1,0 +1,6 @@
+node_modules
+.env
+uploads
+.eslintrs.js
+.editorconfig
+jsconfig.json
