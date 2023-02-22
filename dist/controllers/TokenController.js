@@ -1,5 +1,9 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true}); function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }var _jsonwebtoken = require('jsonwebtoken'); var _jsonwebtoken2 = _interopRequireDefault(_jsonwebtoken);
-var _User = require('../models/User'); var _User2 = _interopRequireDefault(_User);
+Object.defineProperty(exports, '__esModule', { value: true }); function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; } const _jsonwebtoken = require('jsonwebtoken');
+
+const _jsonwebtoken2 = _interopRequireDefault(_jsonwebtoken);
+const _User = require('../models/User');
+
+const _User2 = _interopRequireDefault(_User);
 
 class TokenController {
   async create(req, res) {
@@ -20,4 +24,4 @@ class TokenController {
   }
 }
 
-exports. default = new TokenController();
+exports.default = new TokenController();
